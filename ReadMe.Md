@@ -1,1 +1,1 @@
-This is the DotNet Folder with all the projects going to be private repo for learning purpose.
+This is the DotNetRepo Folder with all the projects going to be private repo for learning purpose.
