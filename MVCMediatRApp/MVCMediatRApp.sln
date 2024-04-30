@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCMediatRApp", "MVCMediatRApp\MVCMediatRApp.csproj", "{8386995F-C906-45ED-BD1F-A082FF2082AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data_MVCMediatRApp", "Data_MVCMediatRApp\Data_MVCMediatRApp.csproj", "{C7071AD4-494C-47A1-B0F9-D9A20BCF26E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_MVCMediatRApp", "Core_MVCMediatRApp\Core_MVCMediatRApp.csproj", "{0E87880D-4FF9-47BA-82E3-D51616CAA652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application_MVCMediatRApp", "Application_MVCMediatRApp\Application_MVCMediatRApp.csproj", "{F8FB0D88-49D8-458D-98C7-AC15E54A35B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi_MVCMediateRApp", "WebApi_MVCMediateRApp\WebApi_MVCMediateRApp.csproj", "{19F7FEC9-754D-4BBF-965F-B6285CF244B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service_MVCMediatRApp", "Service_MVCMediatRApp\Service_MVCMediatRApp.csproj", "{1D0DEEBF-E889-4865-ACA0-349820725AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8386995F-C906-45ED-BD1F-A082FF2082AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8386995F-C906-45ED-BD1F-A082FF2082AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8386995F-C906-45ED-BD1F-A082FF2082AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8386995F-C906-45ED-BD1F-A082FF2082AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7071AD4-494C-47A1-B0F9-D9A20BCF26E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7071AD4-494C-47A1-B0F9-D9A20BCF26E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7071AD4-494C-47A1-B0F9-D9A20BCF26E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7071AD4-494C-47A1-B0F9-D9A20BCF26E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E87880D-4FF9-47BA-82E3-D51616CAA652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E87880D-4FF9-47BA-82E3-D51616CAA652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E87880D-4FF9-47BA-82E3-D51616CAA652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E87880D-4FF9-47BA-82E3-D51616CAA652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FB0D88-49D8-458D-98C7-AC15E54A35B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FB0D88-49D8-458D-98C7-AC15E54A35B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FB0D88-49D8-458D-98C7-AC15E54A35B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FB0D88-49D8-458D-98C7-AC15E54A35B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F7FEC9-754D-4BBF-965F-B6285CF244B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F7FEC9-754D-4BBF-965F-B6285CF244B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F7FEC9-754D-4BBF-965F-B6285CF244B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F7FEC9-754D-4BBF-965F-B6285CF244B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0DEEBF-E889-4865-ACA0-349820725AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0DEEBF-E889-4865-ACA0-349820725AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0DEEBF-E889-4865-ACA0-349820725AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0DEEBF-E889-4865-ACA0-349820725AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CA47987-2B6C-420A-AA06-5666C3FDA589}
+	EndGlobalSection
+EndGlobal

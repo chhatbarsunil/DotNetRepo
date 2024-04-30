@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="UserProcessor-Old\**" />
+    <EmbeddedResource Remove="UserProcessor-Old\**" />
+    <None Remove="UserProcessor-Old\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core_MVCMediatRApp\Core_MVCMediatRApp.csproj" />
+    <ProjectReference Include="..\Data_MVCMediatRApp\Data_MVCMediatRApp.csproj" />
+    <ProjectReference Include="..\Service_MVCMediatRApp\Service_MVCMediatRApp.csproj" />
+  </ItemGroup>
+
+</Project>
