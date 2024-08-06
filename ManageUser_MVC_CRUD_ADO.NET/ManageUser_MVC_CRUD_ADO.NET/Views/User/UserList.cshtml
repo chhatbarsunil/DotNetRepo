@@ -1,0 +1,71 @@
+﻿@model List<User>
+
+<h1>User List</h1>
+<button>AddUser</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>User ID</th>
+            <th>Name</th>
+            <th>Mobile</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserID</td>
+                <td>@user.Name</td>
+                <td>@user.Mobile</td>
+                <td>@user.Age</td>
+                <td>@user.Address</td>
+                <td><button data-user-id="@user.UserID" type="button" name="Edit" class="btn btn-primary" id="btnEdit">Edit</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+   
+    $(document).ready(function () {
+        $("#btnEdit").click(function () {
+            var userId = $(this).data("user-id"); // Get user ID from data attribute
+            
+            // Use the user ID for further processing (e.g., AJAX call)
+            console.log("Selected User ID:", userId); // For demonstration
+            redirectToUpdateUser(userId)
+        });
+        function redirectToUpdateUser(userId) {
+            console.log(userId)
+
+                window.location.href="/User/Edit/"+userId
+           
+                // Make AJAX call on button click
+                //$.ajax({
+                //    url: '/User/Edit/'+data.userId, // Update URL based on your controller and action names
+                //    type: 'POST',
+                //    dataType: 'json', // Expecting JSON response from the server
+                //    data: {
+                //        userId: userId,
+                //    },
+                //    success: function (response) {
+                //        if (response.success) {
+                //            // Handle successful edit (e.g., redirect to Index)
+                //            window.location.href = '/User/Index'; // Update URL based on your controller action
+                //        } else {
+                //            // Handle validation errors if any (display them on the page)
+                //            // You can use a loop to iterate through response.errors and display them next to the corresponding fields
+                //            console.error("Edit failed:", response.errors); // For debugging purposes
+                //        }
+                //    },
+                //    error: function (jqXHR, textStatus, errorThrown) {
+                //        console.error("AJAX Error:", textStatus, errorThrown); // Handle errors
+                //    }
+                //});
+            
+        }
+    });
+</script>
